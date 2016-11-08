@@ -164,7 +164,7 @@ hr {
 	color: #fff;
 
 	background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url("../img/intro-bg.jpg") no-repeat center center fixed;
 	background-color: #000;
@@ -184,7 +184,7 @@ hr {
 	text-transform: uppercase;
 }
 #intro .intro-body .brand-heading {
-	color: #E75926;
+	color: #E75926; 
 	text-shadow: 0 4px #a13e1a;
 }
 #intro .intro-body .intro-text {
@@ -616,8 +616,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: url("../img/content-bg.png");
 }
 
-.bar { 
-    height: 20px; 
+.bar {
+    height: 20px;
     position: relative;
     /*margin: 20px 0 20px 0;*/
     /*background: #555;*/
@@ -813,5 +813,5 @@ time {
 .live-url a:hover{
 	color:#e75827;
 	text-decoration: underline;
-	
+
 }

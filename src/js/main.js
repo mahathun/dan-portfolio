@@ -6,11 +6,11 @@ function main() {
 
 	// Hide .navbar first
 	$(".navbar").hide();
-	
+
 	// Fade in .navbar
 	$(function () {
 		$(window).scroll(function () {
-      
+
             // set distance user needs to scroll before we fadeIn navbar
 			if ($(this).scrollTop() > 200) {
 				$('.navbar').fadeIn();
@@ -19,19 +19,19 @@ function main() {
 			}
 		});
 
-	
+
 	});
-	
+
 	// Preloader */
 	  	$(window).load(function() {
 
-   	// will first fade out the loading animation 
-    	$("#status").fadeOut("slow"); 
+   	// will first fade out the loading animation
+    	$("#status").fadeOut("slow");
 
-    	// will fade out the whole DIV that covers the website. 
-    	$("#preloader").delay(500).fadeOut("slow").remove();      
+    	// will fade out the whole DIV that covers the website.
+    	$("#preloader").delay(500).fadeOut("slow").remove();
 
-  	}) 
+  	})
 
    // Page scroll
   	$('a.page-scroll').click(function() {
@@ -47,12 +47,12 @@ function main() {
         }
       });
 
-    
-    
+
+
     var $bars = $(".bar > span");
     var $section = $('#skill1');
     var $queue = $({});
-    
+
     function loadDaBars() {
         $bars.each(function() {
             var $el = $(this);
@@ -64,7 +64,7 @@ function main() {
             });
         });
     }
-    
+
     $(document).bind('scroll', function(ev) {
 
         var scrollOffset = $(document).scrollTop();
@@ -75,7 +75,7 @@ function main() {
             $(document).unbind('scroll');
         }
     });
-    
+
 
 
     // Show Menu on Book
@@ -89,12 +89,12 @@ function main() {
         }
     });
 
-    $('body').scrollspy({ 
+    $('body').scrollspy({
         target: '.navbar-default',
         offset: 80
     })
 
-  	
+
 
   	// Portfolio Isotope Filter
     $(window).load(function() {
@@ -160,14 +160,14 @@ function main() {
   window.addEventListener("resize", callbackFunc);
   window.addEventListener("scroll", callbackFunc);
 
-	
-	
+
+
 
   // jQuery Parallax
   function initParallax() {
     $('#intro').parallax("100%", 0.3);
     $('#services').parallax("100%", 0.3);
-    $('#aboutimg').parallax("100%", 0.3);	
+    $('#aboutimg').parallax("100%", 0.3);
     $('#testimonials').parallax("100%", 0.1);
 
   }
@@ -176,7 +176,7 @@ function main() {
   	// Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
-	});	
+	});
 
 }());
 
