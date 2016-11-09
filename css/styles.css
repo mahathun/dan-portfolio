@@ -6944,7 +6944,7 @@ hr {
 	text-transform: uppercase;
 }
 #intro .intro-body .brand-heading {
-	color: #E75926; 
+	color: #E75926;
 	text-shadow: 0 4px #a13e1a;
 }
 #intro .intro-body .intro-text {
@@ -7025,7 +7025,7 @@ hr {
 }
 /* skills Section */
 #skills {
-	padding: 140px 0;
+	/*padding: 140px 0;*/
 	/*background: url("../img/skills-bg.jpg");*/
 	background-size: cover;
 	background-attachment: fixed;
