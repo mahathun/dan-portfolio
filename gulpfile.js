@@ -88,6 +88,8 @@ gulp.task('watch', ['browserSync','sass'],function(){
   gulp.watch('app/js/**/*.js', browserSync.reload);
 });
 
+gulp.task('default', ['watch']);
+
 //producation workflow
 gulp.task('build',function(callback){
   runSequence('clean:dist',
