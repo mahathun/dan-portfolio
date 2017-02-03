@@ -10,6 +10,9 @@
 
 .hexrow > div {
   width: 4.5vw;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: red;
   height: 7.79423vw;
   /* ( width x cos(30) ) x 2 */
   /* For margin:
@@ -18,7 +21,6 @@
     */
   margin: 0 1.125vw;
   position: relative;
-  background: rgba(122, 27, 154, 0.6);
   background-position: -2.25vw 0;
   /* -left position -1 x width x sin(30) */
   background-repeat: no-repeat;
@@ -55,6 +57,9 @@
   z-index: -1;
   overflow: hidden;
   background: inherit;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: red;
   -ms-transform: rotate(60deg);
   /* IE 9 */
   -moz-transform: rotate(60deg);
@@ -107,6 +112,9 @@
   z-index: -2;
   overflow: hidden;
   background: inherit;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: red;
   -ms-transform: rotate(-60deg);
   /* IE 9 */
   -moz-transform: rotate(-60deg);
@@ -177,25 +185,25 @@
   .hexrow:nth-child(1) > div:nth-child(11) {
     opacity: 0; }
   .hexrow:nth-child(1) > div:nth-child(1) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(1) > div:nth-child(2) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(1) > div:nth-child(3) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(1) > div:nth-child(4) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(1) > div:nth-child(5) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(1) > div:nth-child(6) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(1) > div:nth-child(7) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(1) > div:nth-child(8) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(1) > div:nth-child(9) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(1) > div:nth-child(10) {
-    background: black; }
+    background-color: black; }
 
 .hexrow:nth-child(2) {
   /*nth($row1-colors,$i)*/
@@ -210,27 +218,27 @@
   /*nth($row1-colors,$i)*/
   /*nth($row1-colors,$i)*/ }
   .hexrow:nth-child(2) > div:nth-child(1) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(2) > div:nth-child(2) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(2) > div:nth-child(3) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(2) > div:nth-child(4) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(2) > div:nth-child(5) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(2) > div:nth-child(6) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(2) > div:nth-child(7) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(2) > div:nth-child(8) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(2) > div:nth-child(9) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(2) > div:nth-child(10) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(2) > div:nth-child(11) {
-    background: black; }
+    background-color: black; }
 
 .hexrow:nth-child(3) {
   /*nth($row1-colors,$i)*/
@@ -248,25 +256,25 @@
   .hexrow:nth-child(3) > div:nth-child(11) {
     opacity: 0; }
   .hexrow:nth-child(3) > div:nth-child(1) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(3) > div:nth-child(2) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(3) > div:nth-child(3) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(3) > div:nth-child(4) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(3) > div:nth-child(5) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(3) > div:nth-child(6) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(3) > div:nth-child(7) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(3) > div:nth-child(8) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(3) > div:nth-child(9) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(3) > div:nth-child(10) {
-    background: black; }
+    background-color: black; }
 
 .hexrow:nth-child(4) {
   /*nth($row1-colors,$i)*/
@@ -288,22 +296,22 @@
   .hexrow:nth-child(4) > div:nth-child(11) {
     opacity: 0; }
   .hexrow:nth-child(4) > div:nth-child(1) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(4) > div:nth-child(2) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(4) > div:nth-child(3) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(4) > div:nth-child(4) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(4) > div:nth-child(5) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(4) > div:nth-child(6) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(4) > div:nth-child(7) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(4) > div:nth-child(8) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(4) > div:nth-child(9) {
-    background: black; }
+    background-color: black; }
   .hexrow:nth-child(4) > div:nth-child(10) {
-    background: black; }
+    background-color: black; }

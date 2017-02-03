@@ -1,0 +1,27 @@
+.social-icon-bar{
+  position: fixed;
+  margin: 2px;
+  padding:.2em;
+  background: rgba(17, 18, 19, 0.45);
+  top:40%;
+  border-radius: .4em;
+  transition: top 1s ease;
+  z-index: 100;
+
+  p{
+    margin: .2em;
+    :hover{
+      border:1x;
+      border-color: #e75926;
+    }
+  }
+
+  span{
+    color: white;
+
+    :hover{
+      color:#e75926;
+    }
+  }
+
+}
