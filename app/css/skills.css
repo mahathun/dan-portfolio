@@ -33,7 +33,7 @@
   opacity: .5;
   -webkit-transition: opacity 4s,font-size 4s;
   font-size: 1vw;
-  cursor: url("../favicon.ico"), url(myBall.cur), auto; }
+  cursor: url("../favicon.ico"), auto; }
 
 .hexrow > div:hover {
   -webkit-transition: all .2s;

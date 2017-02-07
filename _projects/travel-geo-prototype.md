@@ -6,7 +6,7 @@ category: project
 modalImageURL: img/portfolio/prototype.jpg
 thumbnailImageURL: img/portfolio/prototype.jpg
 thumbnailText: Prototyping
-projectCategories: pprototype mobile
+projectCategories: prototype mobile
 description: some low-level and high-level prototypes which I created in the process of developing a mobile application “TravelGeo”.
 demoURL: travel-geo-prototype.html
 <!-- target: _blank -->
