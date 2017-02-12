@@ -825,3 +825,7 @@ time {
 	text-decoration: underline;
 
 }
+
+#experience p, #experience h2{
+	color: #f6f6f6;
+}
