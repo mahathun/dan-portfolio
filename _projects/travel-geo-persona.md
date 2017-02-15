@@ -4,7 +4,7 @@ title: TravelGeo - Persona
 tags: [Persona]
 category: project
 modalImageURL: img/portfolio/travelGeoPersona.jpg
-thumbnailImageURL: img/portfolio/travelGeoPersona.jpg
+thumbnailImageURL: img/portfolio/thumb/10.jpg
 thumbnailText: Personas
 projectCategories: persona mobile
 description: some of the personas which I created in the process of developing a mobile application “TravelGeo”.

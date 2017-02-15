@@ -4,7 +4,7 @@ title: Dan Seminar Subscriber
 tags: [Wordpress, PHP, WordPress Plugin, GIT, JavaScript, HTML, CSS]
 category: project
 modalImageURL: img/portfolio/dan-seminar-subscriber/4-1.gif
-thumbnailImageURL: img/portfolio/dan-seminar-subscriber/4-1.gif
+thumbnailImageURL: img/portfolio/thumb/1.gif
 thumbnailText: Plugin Development / WordPress
 projectCategories: webDevelopment wordpress wordPressPlugin
 description: this plugin will allow users to subscribe to Calendar events. Registered users will then get an booking email and a reminder email according to a email template set by the administrator.

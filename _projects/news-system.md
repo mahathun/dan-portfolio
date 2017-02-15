@@ -4,7 +4,7 @@ title: News Management System
 tags: [HTML, CSS, Bootstrap, JavaScript, AJAX, jQuery, PHP, MySQL, LDAP Server]
 category: project
 modalImageURL: img/portfolio/newsSystem.jpg
-thumbnailImageURL: img/portfolio/newsSystem.jpg
+thumbnailImageURL: img/portfolio/thumb/12.png
 thumbnailText: Web Designing and Development
 projectCategories: webDevelopment
 description: A project i developed when i was working as an Assistant Web Developer at the University of Peradeniya to make the internal news publishing more efficient.

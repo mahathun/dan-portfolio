@@ -4,7 +4,7 @@ title: TravelGeo - Prototype
 tags: [Prototype]
 category: project
 modalImageURL: img/portfolio/prototype.jpg
-thumbnailImageURL: img/portfolio/prototype.jpg
+thumbnailImageURL: img/portfolio/thumb/11.jpg
 thumbnailText: Prototyping
 projectCategories: prototype mobile
 description: some low-level and high-level prototypes which I created in the process of developing a mobile application “TravelGeo”.

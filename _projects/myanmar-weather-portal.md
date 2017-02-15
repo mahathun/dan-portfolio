@@ -4,7 +4,7 @@ title: Myanmar weather portal
 tags: [HTML, CSS, Bootstrap, JavaScript, AJAX, jQuery, PHP, MySQL, AngularJS, D3 Toolkit, Crossfilter]
 category: project
 modalImageURL: img/portfolio/myanmar_weather_portal.jpg
-thumbnailImageURL: img/portfolio/myanmar_weather_portal.jpg
+thumbnailImageURL: img/portfolio/thumb/7.jpg
 thumbnailText: Web Designing and Development
 projectCategories: webDevelopment
 description: This project was done as a request of Myanmar Government. They needed a system which can be used to access weather information for past 30 years which they had already gathered.

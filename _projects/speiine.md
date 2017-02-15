@@ -4,7 +4,7 @@ title: SPEIINE
 tags: [Android, Java, MySQL, PHP, XML, JSON, AJAX]
 category: project
 modalImageURL: img/portfolio/speiine.jpg
-thumbnailImageURL: img/portfolio/speiine.jpg
+thumbnailImageURL: img/portfolio/thumb/8.jpg
 thumbnailText: Android App
 projectCategories: mobile android
 description: A project to capture geo spatial data using an android smart phone and build a wireframe of the space in order to help an interior architecture for his day to day work.

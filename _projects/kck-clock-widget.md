@@ -4,7 +4,7 @@ title: KCK Clock
 tags: [Android, Java, Widget, XML]
 category: project
 modalImageURL: img/portfolio/kck_clock_widget.jpg
-thumbnailImageURL: img/portfolio/kck_clock_widget.jpg
+thumbnailImageURL: img/portfolio/thumb/9.jpg
 thumbnailText: Android Widget
 projectCategories: mobile android
 description: A clock widget developed using my high school crest for the Android eco-system.

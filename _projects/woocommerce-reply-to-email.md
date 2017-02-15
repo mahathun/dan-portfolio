@@ -4,7 +4,7 @@ title: WooCommerce Reply-to-email
 tags: [Wordpress, PHP, WordPress Plugin, GIT]
 category: project
 modalImageURL: img/portfolio/woocommerce-reply-to-email.gif
-thumbnailImageURL: img/portfolio/woocommerce-reply-to-email.gif
+thumbnailImageURL: img/portfolio/thumb/3.gif
 thumbnailText: Plugin Development / WordPress
 projectCategories: webDevelopment wordpress wordPressPlugin
 description: A WordPress plugin which can be used on top of woocommerce plugin to add a reply to email address to new order emails so that the admin can directly reply to the customer by clicking reply button.
