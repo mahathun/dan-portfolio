@@ -1,0 +1,21 @@
+
+- category: '*'
+  displayText: All
+
+- category: .android
+  displayText: Android
+
+- category: .webDevelopment
+  displayText: Web Development
+
+- category: .wordpress
+  displayText: Wordpress
+
+- category: .mobile
+  displayText: Mobile Developmet
+
+- category: .persona
+  displayText: Personas
+
+- category: .prototype
+  displayText: Prototypes

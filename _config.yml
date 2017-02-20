@@ -1,0 +1,13 @@
+name: Dan Portfolio
+markdown: kramdown
+highlighter: pygments # or rouge or null
+
+collections:
+  projects:
+    output: true
+    permalink: /app/:title.html
+
+  experiences:
+    output: false
+
+exclude: ["node_modules", "gulpfile.js", "package.json","server.js"]

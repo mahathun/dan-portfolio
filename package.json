@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/mahathun/dan-portfolio#readme",
   "devDependencies": {
+    "bootstrap-social": "^5.1.1",
     "browser-sync": "^2.18.5",
+    "child-process": "^1.0.2",
     "del": "^2.2.2",
     "express": "^4.14.0",
     "gulp": "^3.9.1",

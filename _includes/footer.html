@@ -1,0 +1,38 @@
+<div id="footer">
+  <div class="container">
+    <p>Copyright &copy; Dan Mahavithana. </p>
+  </div>
+</div>
+
+<!-- javascript file -->
+<!--build:js js/main.min.js -->
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/contact_me.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/jquery.parallax.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/main2.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/backgroundVideo/backgroundVideo.js"></script>
+<script type="text/javascript" src="js/loadBackgroundVideo.js"></script>
+<script type="text/javascript" src="js/social-icon-bar.js"></script>
+<script type="text/javascript" src="js/typed.js"></script>
+<!-- endbuild-->
+
+
+{% if page.pageN == 'index' %}
+<script>
+  $(function(){
+      $(".typed-el").typed({
+          strings: ["A Developer with a <span class='typed-brand-text'>passion</span>"],
+          typeSpeed: 1
+      });
+  });
+</script>
+{% endif %}
+
+</body>
+</html>
