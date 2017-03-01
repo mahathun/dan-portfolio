@@ -25,11 +25,14 @@ sortOrder: 6
       </p>
 
       <p>Technologies: - MySQL, PHP, JavaScript, JQuery, AJAX, AngularJS, D3 Toolkit, Crossfilter, HTML, CSS and Bootstrap framework.</p>
-</p>
+
     </div>
     <div class="row">
-      <div class="col-md-12 live-url">
-        Live Url :- <a href="http://dev1.wowspace.org/team/homex.php" target="_blank">http://dev1.wowspace.org/team/homex.php</a>
+      <div class="col-md-12 ">
+        Live Url :- <a class ="live-url" href="http://dmh-cdp.wowspace.org/" target="_blank">http://dmh-cdp.wowspace.org/</a>
+        <p>
+        More information about the project :- <a class="live-url"  href="http://www.adpc.net/Igo/contents/Media/media-news.asp?pid=745&topic=#sthash.mIo0PXqP.TidSZCem.dpbs" target="_blank">ADPC project</a>
+        </p>
       </div>
     </div>
     <div id="row">

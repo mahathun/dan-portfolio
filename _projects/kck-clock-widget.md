@@ -24,7 +24,7 @@ sortOrder: 8
 
 
       <p>Technologies: - Java, XML, Android 2.0 or above.</p>
-</p>
+
     </div>
 
     <div class="row">

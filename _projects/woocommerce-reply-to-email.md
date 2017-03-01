@@ -27,7 +27,7 @@ sortOrder: 2
         2) extract it to the plugin folder of your wordpress directory and then activate the plugin from the dashboard. If you ever want to revert to old configuration, just deactivate the plugin. :)
       </p>
       <p>Technologies: - PHP and WordPress.</p>
-</p>
+
     </div>
 
     <div class="row">

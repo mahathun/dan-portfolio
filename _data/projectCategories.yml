@@ -19,3 +19,6 @@
 
 - category: .prototype
   displayText: Prototypes
+
+- category: .react
+  displayText: React
