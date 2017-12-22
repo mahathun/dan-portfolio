@@ -16,6 +16,7 @@ var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
+const dest = 'public';//'_site/dist';
 
 /**
  * Build the Jekyll Site
@@ -52,25 +53,25 @@ gulp.task('images', function(){
             progressive:true,
             interlced:true,
           })))
-          .pipe(gulp.dest('_site/dist/img/'));
+          .pipe(gulp.dest(dest+'/img/'));
 });
 
 //copying font files
 gulp.task('fonts', function(){
   return gulp.src('_site/app/fonts/**/*')
-          .pipe(gulp.dest('_site/dist/fonts'));
+          .pipe(gulp.dest(dest+'/fonts'));
 });
 
 //copying video files
 gulp.task('video', function(){
   return gulp.src('_site/app/res/**/*')
-          .pipe(gulp.dest('_site/dist/res'));
+          .pipe(gulp.dest(dest+'/res'));
 });
 
 //cleaning up
 //cleant the directory
 gulp.task('clean:dist', function(){
-  return del.sync('_site/dist');
+  return del.sync(dest+'');
 });
 
 //clear the image cache
@@ -89,7 +90,7 @@ gulp.task('browserSync',function(){
 //initializing the production environment
 gulp.task('productionServer', function(){
   browserSync.init({
-    server:{baseDir:'_site/dist'}
+    server:{baseDir:dest+''}
   });
 });
 
@@ -101,7 +102,7 @@ gulp.task('useref', function(){
             .pipe(gulpIf('*.js', uglify()))
             //minifies only if it's a css file
             .pipe(gulpIf('*.css', cssnano()))
-            .pipe(gulp.dest('_site/dist'));
+            .pipe(gulp.dest(dest+''));
 });
 
 //development workflow : watch tasks
