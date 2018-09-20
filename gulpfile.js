@@ -10,8 +10,9 @@ var cache = require('gulp-cache');
 var del = require('del');
 var runSequence = require('run-sequence');
 var cp = require('child_process');
+var autoprefixer = require('gulp-autoprefixer');
 
-var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'bundle exec jekyll build';
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
@@ -23,8 +24,10 @@ const dest = 'public';//'_site/dist';
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
-        .on('close', done);
+    return cp.exec( jekyll , (done)=>{
+      return done;
+    })
+        // .on('close', done);
 });
 
 /**
@@ -38,6 +41,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 gulp.task('sass', function(){
   return gulp.src('app/scss/**/*.scss')
           .pipe(sass())
+          .pipe(autoprefixer())
           .pipe(gulp.dest('app/css'))
           .pipe(browserSync.reload({
             stream:true

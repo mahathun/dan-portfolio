@@ -619,7 +619,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 30px;
 	border: solid 2px;
 	border-color: #cf5022;
-	background: url("../img/content-bg.png");
+	/* background: url("../img/content-bg.png"); */
+	background-color: rgb(24, 26, 29);
 }
 
 .bar {
