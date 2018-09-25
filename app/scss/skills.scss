@@ -158,13 +158,13 @@ $border-color:red;
 
 .hexrow > div > span {
     display: inline-block;
-    margin: 0 -30px;
+    margin: 0px;
     line-height: 1.1;
     vertical-align: middle;
     white-space: normal;
     position: absolute;
     top:50%;
-    left: 100%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
 }
